@@ -1,0 +1,39 @@
+version: '3'
+services:
+  nginx:
+    container_name: v-nginx
+    image: nginx:1.13
+    restart: always
+    ports:
+    - 80:80
+    - 443:443
+    volumes:
+    - ./nginx/conf:/etc/nginx/conf
+    - ./nginx/nginx.html:/usr/share/nginx/html/index.html
+
+  mysql:
+    container_name: v-mysql
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: test
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_HOST: '%'
+    ports:
+    - "3306:3306"
+    restart: always
+
+  #app:
+    #restart: always
+    #build: ./app
+    #working_dir: /app
+    #volumes:
+    #- ./app:/app
+    #- ~/.m2:/root/.m2
+    #- "8080"
+    #depends_on:
+    #- nginx
+    #- mysql
+    #command: mvn clean spring-boot:run -Dspring-boot.run.profiles=docker
+
+    #常用命令：
+    #1.   docker exec -it v-mysql /bin/bash  ：宿主机与容器交互
