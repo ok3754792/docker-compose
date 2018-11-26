@@ -37,3 +37,5 @@ services:
 
     #常用命令：
     #1.   docker exec -it v-mysql /bin/bash  ：宿主机与容器交互
+    #2.   其中proxy_pass http://app:8080这块的配置信息需要解释一下，这里使用是app而不是localhost，是因为他们没有在一个容器中，在一组 compose 的服务通讯需要使用 services 的名称进行访问。
+    #3.   将数据库的连接信息由jdbc:mysql://localhost:3306/test改为jdbc:mysql://mysql:3306/test 。
