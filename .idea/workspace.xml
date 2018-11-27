@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe88b60-f8a3-4885-9df7-aa4177aa72f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +53,7 @@
           <entry key="html" value="14" />
           <entry key="properties" value="5" />
           <entry key="txt" value="3" />
-          <entry key="yml" value="168" />
+          <entry key="yml" value="170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -65,7 +64,7 @@
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="4" />
-          <entry key="YAML" value="168" />
+          <entry key="YAML" value="170" />
         </counts>
       </usages-collector>
     </session>
@@ -75,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+            <state relative-caret-position="943">
+              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -218,7 +217,7 @@
       <workItem from="1543221574023" duration="994000" />
       <workItem from="1543222604989" duration="2674000" />
       <workItem from="1543283689017" duration="1204000" />
-      <workItem from="1543301666106" duration="53000" />
+      <workItem from="1543301666106" duration="1369000" />
     </task>
     <task id="LOCAL-00001" summary="bc">
       <created>1543224427295</created>
@@ -234,11 +233,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543224681647</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bc">
+      <created>1543301730734</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543301730734</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14556000" />
+    <option name="totallyTimeSpent" value="15872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1295" height="695" extended-state="6" />
@@ -313,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+        <state relative-caret-position="943">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
         </state>
       </provider>
     </entry>
